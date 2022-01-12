@@ -9,7 +9,7 @@ class Car{
     private:    
         bool operable;
         int milage;
-        std::vector<std::array> {};
+        std::vector<std::array> optnLst{};
 
     public:
         bool isOperable(Car& c);
